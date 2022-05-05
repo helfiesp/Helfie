@@ -327,6 +327,7 @@ class CVEScanner:
         """
         This function is used to create the base HTML code for the CVE table layout.
         More might be added in the future for design and or other features.
+        The HTML Code should not be written directly into the python code, but cba...
         """
         print("[!] Writing base html...")
         check = False
