@@ -16,6 +16,7 @@ class CVEScanner:
     """
     def __init__(self):
         print("<{}> OKCSIRT CVE Scanner <{}>".format("-"*15, "-"*15))
+        self.main()
 
     def main(self):
         """
@@ -579,4 +580,4 @@ class CVEScanner:
         return unique
 
 if __name__ == '__main__':
-    CVEScanner().main()
+    CVEScanner()
