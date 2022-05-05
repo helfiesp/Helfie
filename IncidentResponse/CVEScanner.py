@@ -1,22 +1,13 @@
 import ast
 import time
-from email import encoders
-from email.mime.base import MIMEBase
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
 import requests
 from bs4 import BeautifulSoup as bs
 from datetime import datetime, timedelta
 from datetime import date
-import os
 from collections import defaultdict
 import sys
 import argparse
 from cvsslib import cvss2, cvss3, calculate_vector
-import base64
-from email.utils import formataddr
-import smtplib
-
 
 class CVEScanner:
     """
